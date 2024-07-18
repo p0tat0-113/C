@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    char w1 = 'A'; // 문자 변수를 선언하고 문자 a를 저장
+
+    //char형은 문자의 아스키코드 값을 담기 위해 만들어졌다. %c로 출력하면 문자, %d로 출력하면 숫자가 나온다.
+    char w1 = 'A';
     printf("%c, %d\n", w1, w1);
 
     char w2 = 65;
