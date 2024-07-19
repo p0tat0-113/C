@@ -26,7 +26,7 @@ int main(void){
 
     //scanf로 문자열 입력받기
     char str2[50];
-    scanf("%s",str2);//scanf로 배열에 입력을 할 때는 &를 붙이지 않아도 된다. 배열의 이름 자체가 배열의 참조값을 가리키기 때문
+    scanf("%s",str2);//scanf로 배열에 입력을 할 때는 &를 붙이지 않아도 된다. 배열변수 자체가 배열의 참조값을 가리키기 때문
 
     //hello world입력
     printf("%s",str2);//hello
