@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    //c언어에서 문자열은 chat형 배열로 다룬다.
+    //c언어에서 문자열은 char형 배열로 다룬다.
     char str1[] = "Hello World";
     printf("%s\n",str1);
 
