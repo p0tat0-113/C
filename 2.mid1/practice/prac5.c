@@ -13,7 +13,7 @@ void bubbleSort(int arr[], int len){
             }
         }
     }
-    printf("sorting completed");
+    printf("sorting completed!!!\n");
 
     for (int i = 0; i < len; i++)
     {
