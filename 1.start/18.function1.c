@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//int add(int,int);//함수 선언
+int add(int,int);//함수 선언
 
 int main(void) {
     printf("%d\n",add(3,5));

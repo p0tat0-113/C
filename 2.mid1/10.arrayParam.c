@@ -40,6 +40,5 @@ int main(void){
         printf("%d ",arr[i]);
     }
     
-
     return 0;
 }
