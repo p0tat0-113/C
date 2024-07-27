@@ -32,7 +32,7 @@ int main(void){
         {
             break;
         }
-        putchar(c);
+        fputc(c,stdout);
     }
     //공백이 포함되는 문자열을 입력해도 그대로 출력된다. 문장을 구성하는 문자의 수만큼 fgetc()함수가 호출됨. 개행문자까지 그대로 다 입력받는다.
 
