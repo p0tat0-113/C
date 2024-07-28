@@ -44,7 +44,7 @@ int main(void){
         }
     }
 
-    struct node * currNode = arr[0];
+    struct node * currNode = &node1;
     while (currNode != NULL)
     {
         printf("%d -> ",currNode ->num);
