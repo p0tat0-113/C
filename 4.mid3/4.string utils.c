@@ -57,6 +57,11 @@ int main(void){
     char str8[] = "ABCDE";
     char str9[] = "ABC";
 
+    if (str6 == str7)//참조값을 비교, 선언 방식에 따라 true가 반환되지 않을 수 있음.
+    {
+        printf("same");
+    }
+
     printf("strcmp(str6,str7): %d\n",strcmp(str6,str7));
     printf("strcmp(str6,str8): %d\n",strcmp(str6,str8));
     printf("strcmp(str6,str9): %d\n",strcmp(str6,str9));
